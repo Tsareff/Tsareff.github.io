@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Магазин готовых шаблонов</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="main-header main-header-catalog">
+      <div class="container">
+        <nav class="main-navigation">
+          <a class="main-logo main-logo-active" href="index.html" title="Главная"><img src="img/nerds-logo.png" width="160" height="64" alt="Главная"></a>
+          <ul class="main-navigation-list">
+            <li class="main-navigation-item">
+              <a href="#">Студия</a>
+            </li>
+            <li class="main-navigation-item">
+              <a href="#">Клиенты</a>
+            </li>
+            <li class="main-navigation-item navigation-active">
+              <a>Магазин</a>
+            </li>
+            <li class="main-navigation-item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="main-navigation-item main-navigation-bin">
+            <a href="#">Корзина</a>
+          </div>
+        </nav>
+        <h1 class="header-title">Магазин готовых шаблонов</h1>
+      </div>
+    </header>
+    <main class="main-index">
+      <div class="container main-index-layout">
+        <div class="index-form">
+          <form class="main-form">
+            <div class="main-form-price">
+              <h2 class="main-title main-title-price">Стоимость:</h2>
+              <div class="main-form-bar">
+                <div class="main-form-toggle min-toggle"></div>
+                <div class="main-form-toggle max-toggle"></div>
+                <div class="main-form-scale">
+                  <div class="main-form-blockbar"></div>
+                </div>
+              </div>
+              <div class="main-form-options">
+                <div class="options-from">
+                  <label class="options-title" for="from">от</label>
+                  <input class="options-type" type="text" name="from" id="from" value="0">
+                </div>
+                <div class="options-to">
+                  <label class="options-title" for="to">до</label>
+                  <input class="options-type" type="text" name="to" id="to" value="15000">
+                </div>
+              </div>
+            </div>
+            <div class="main-form-grid">
+              <h2 class="main-title main-title-grid">Сетка:</h2>
+              <div class="main-form-item">
+                <input class="form-item-radio" type="radio" name="radio-grid" id="adopt" checked>
+                <label class="form-item-title" for="adopt">Адаптивная</label>
+              </div>
+              <div class="main-form-item">
+                <input class="form-item-radio" type="radio" name="radio-grid" id="fixed">
+                <label class="form-item-title" for="fixed">Фиксированная</label>
+              </div>
+              <div class="main-form-item">
+                <input class="form-item-radio" type="radio" name="radio-grid" id="rubbered">
+                <label class="form-item-title" for="rubbered">Резиновая</label>
+              </div>
+            </div>
+            <div class="main-form-features">
+              <h2 class="main-title main-title-features">Особенности:</h2>
+              <div class="main-form-item">
+                <input class="form-item-checkbox" type="checkbox" name="slider" id="slider" checked>
+                <label class="form-item-title item-title-checkbox" for="slider">Слайдер</label>
+              </div>
+              <div class="main-form-item">
+                <input class="form-item-checkbox" type="checkbox" name="features" id="features">
+                <label class="form-item-title item-title-checkbox" for="features">Блок преимуществ</label>
+              </div>
+              <div class="main-form-item">
+                <input class="form-item-checkbox" type="checkbox" name="news" id="news" checked>
+                <label class="form-item-title item-title-checkbox" for="news">Новости</label>
+              </div>
+              <div class="main-form-item">
+                <input class="form-item-checkbox" type="checkbox" name="gallery" id="gallery">
+                <label class="form-item-title item-title-checkbox" for="gallery">Галерея</label>
+              </div>
+              <div class="main-form-item">
+                <input class="form-item-checkbox" type="checkbox" name="bin" id="bin">
+                <label class="form-item-title item-title-checkbox" for="bin">Корзина</label>
+              </div>
+            </div>
+            <button class="btn main-form-btn" type="submit">Показать</button>
+          </form>
+        </div>
+        <section class="main-gallery">
+          <div class="main-sort">
+            <h2 class="main-title main-title-sort">Сортировать:</h2>
+              <ul class="main-sort-list">
+                <li class="main-sort-item">
+                  <a class="sort-item-active" href="#">По цене</a>
+                </li>
+                <li class="main-sort-item">
+                  <a href="#">По типу</a>
+                </li>
+                <li class="main-sort-item">
+                  <a href="#">По названию</a>
+                </li>
+              </ul>
+              <ul class="main-sort-nav">
+                <li class="sort-nav-item">
+                  <a class="sort-item-active" href="#"></a>
+                </li>
+                <li class="sort-nav-item">
+                  <a class="sort-item-inactive" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          <div class="main-gallery-field">
+            <div class="main-gallery-item">
+              <div class="main-image">
+                <img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
+              </div>
+              <div class="image-hover">
+                <h2 class="hover-title">
+                  <a href="product-card.html">Sedona</a>
+                </h2>
+                <p class="hover-text">Информационный сайт для туристов</p>
+                <a class="btn" href="product-card.html">9 900 РУБ.</a>
+              </div>
+            </div>
+            <div class="main-gallery-item">
+              <div class="main-image">
+                <img src="img/img-pink.jpg" width="360" height="576" alt="Pink">
+              </div>
+              <div class="image-hover">
+                <h2 class="hover-title">
+                  <a href="product-card.html">PINK APP</a>
+                </h2>
+                <p class="hover-text hover-text-special">Продуктовый лендинг приложений для IOS и Android</p>
+                <a class="btn" href="product-card.html">9 900 РУБ.</a>
+              </div>
+            </div>
+            <div class="main-gallery-item">
+              <div class="main-image">
+                <img src="img/img-barbershop.jpg" width="360" height="576" alt="Barbershop">
+              </div>
+              <div class="image-hover">
+                <h2 class="hover-title">
+                  <a href="product-card.html">BARBERSHOP</a>
+                </h2>
+                <p class="hover-text">Сайт салона красоты. Для мужчин, да.</p>
+                <a class="btn" href="product-card.html">9 900 РУБ.</a>
+              </div>
+            </div>
+            <div class="main-gallery-item">
+              <div class="main-image">
+                <img src="img/img-mishka.jpg" width="360" height="576" alt="Mishka">
+              </div>
+              <div class="image-hover">
+                <h2 class="hover-title">
+                  <a href="product-card.html">MISHKA</a>
+                </h2>
+                <p class="hover-text">Интернет-магазин вязаных игрушек</p>
+                <a class="btn" href="product-card.html">9 900 РУБ.</a>
+              </div>
+            </div>
+            <div class="main-gallery-item gallery-item-last">
+              <div class="main-image">
+                <img src="img/img-aplus.jpg" width="360" height="576" alt="A Plus">
+              </div>
+              <div class="image-hover">
+                <h2 class="hover-title">
+                  <a href="product-card.html">A PLUS</a>
+                </h2>
+                <p class="hover-text hover-text-special">Лендинг курсов повышения квалификации</p>
+                <a class="btn" href="product-card.html">9 900 РУБ.</a>
+              </div>
+            </div>
+            <div class="main-gallery-item gallery-item-last">
+              <div class="main-image">
+                <img src="img/img-kvast.jpg" width="360" height="576" alt="Kvast">
+              </div>
+              <div class="image-hover">
+                <h2 class="hover-title">
+                  <a href="product-card.html">КВАСТ</a>
+                </h2>
+                <p class="hover-text hover-text-special">Промо-сайт производителя крафтого кваса</p>
+                <a class="btn" href="product-card.html">9 900 РУБ.</a>
+              </div>
+            </div>
+          </div>
+          <div class="paginator">
+            <a class="btn btn-current">1</a>
+            <a class="btn" href="#2">2</a>
+            <a class="btn" href="#3">3</a>
+            <a class="btn" href="#4">Следующая</a>
+          </div>
+        </section>
+      </div>
+      <section class="map" id="map">
+        <div class="contacts">
+          <h2 class="contacts-title">Nёrds design studio</h2>
+          <p class="contacts-adress">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <p class="contacts-phone">тел. +7 (812) 275&#45;75&#45;75</p>
+          <a class="btn btn-contacts" href="popupform.html">Напишите нам</a>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="container main-footer-layout">
+        <section class="footer-social">
+          <a class="social-btn social-btn-vk" href="#"></a>
+          <a class="social-btn social-btn-fb" href="#"></a>
+          <a class="social-btn social-btn-inst" href="#"></a>
+        </section>
+        <section class="footer-copyright">
+          <b class="footer-copyright-title">Давайте дружить, это выгодно!</b>
+          <p class="footer-copyright-text">Скидка 10% для друзей из социальных сетей.</p>
+        </section>
+      </div>
+    </footer>
+    <section class="contacts-popup">
+      <h2 class="contacts-popup-title">Напишите нам</h2>
+      <button class="button-close" type="button"></button>
+      <form class="contacts-form">
+        <div class="contacts-form-item">
+          <label class="contacts-form-title" for="name">Ваше имя:</label>
+          <input class="contacts-form-type" type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
+        </div>
+        <div class="contacts-form-item">
+          <label class="contacts-form-title" for="email">Ваш e-mail:</label>
+          <input class="contacts-form-type" type="email" name="email" id="email" placeholder="Для отправки ответа">
+        </div>
+        <div class="contacts-form-item">
+          <label class="contacts-form-title" for="message">Текст письма:</label>
+          <textarea class="contacts-form-type contacts-form-text" name="message" id="message" placeholder="В свободной форме"></textarea>
+        </div>
+        <button class="btn btn-contacts-submit" type="submit">Отправить</button>
+      </form>
+    </section>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
